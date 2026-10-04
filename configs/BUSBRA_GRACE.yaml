@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BUSBRA"
+  TRAIN_PATH: "./data/BUSBRA/Train_Folder/"
+  VAL_PATH: "./data/BUSBRA/Val_Folder/"
+  TEST_PATH: "./data/BUSBRA/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BUSBRA/Prompts_Folder/"
+  SIZE: 224

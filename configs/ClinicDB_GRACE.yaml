@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "ClinicDB"
+  TRAIN_PATH: "./data/ClinicDB/Train_Folder/"
+  VAL_PATH: "./data/ClinicDB/Val_Folder/"
+  TEST_PATH: "./data/ClinicDB/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/ClinicDB/Prompts_Folder/"
+  SIZE: 224

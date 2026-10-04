@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "CVC300"
+  TRAIN_PATH: "./data/CVC300/Train_Folder/"
+  VAL_PATH: "./data/CVC300/Val_Folder/"
+  TEST_PATH: "./data/CVC300/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/CVC300/Prompts_Folder/"
+  SIZE: 224

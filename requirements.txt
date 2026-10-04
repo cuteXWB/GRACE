@@ -1,0 +1,15 @@
+ftfy
+huggingface-hub
+matplotlib
+monai
+numpy
+opencv-python
+openpyxl
+pandas
+Pillow
+PyYAML
+regex
+scipy
+timm
+tqdm
+transformers

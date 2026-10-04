@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BUSI"
+  TRAIN_PATH: "./data/BUSI/Train_Folder/"
+  VAL_PATH: "./data/BUSI/Val_Folder/"
+  TEST_PATH: "./data/BUSI/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BUSI/Prompts_Folder/"
+  SIZE: 224

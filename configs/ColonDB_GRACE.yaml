@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "ColonDB"
+  TRAIN_PATH: "./data/ColonDB/Train_Folder/"
+  VAL_PATH: "./data/ColonDB/Val_Folder/"
+  TEST_PATH: "./data/ColonDB/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/ColonDB/Prompts_Folder/"
+  SIZE: 224

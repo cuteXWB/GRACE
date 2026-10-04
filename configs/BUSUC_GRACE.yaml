@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BUSUC"
+  TRAIN_PATH: "./data/BUSUC/Train_Folder/"
+  VAL_PATH: "./data/BUSUC/Val_Folder/"
+  TEST_PATH: "./data/BUSUC/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BUSUC/Prompts_Folder/"
+  SIZE: 224

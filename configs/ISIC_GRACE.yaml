@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: ISIC
+  TRAIN_PATH: ./data/ISIC/Train_Folder/
+  VAL_PATH: ./data/ISIC/Val_Folder/
+  TEST_PATH: ./data/ISIC/Test_Folder/
+  TEXT_PROMPT_PATH: "./data/ISIC/Prompts_Folder/"
+  SIZE: 224

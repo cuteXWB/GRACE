@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BTMRI"
+  TRAIN_PATH: "./data/BTMRI/Train_Folder/"
+  VAL_PATH: "./data/BTMRI/Val_Folder/"
+  TEST_PATH: "./data/BTMRI/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BTMRI/Prompts_Folder/"
+  SIZE: 224

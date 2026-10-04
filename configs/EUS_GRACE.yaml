@@ -1,0 +1,12 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "EUS"
+  TRAIN_PATH: "./data/EUS/Train_Folder/"
+  VAL_PATH: "./data/EUS/Val_Folder/"
+  TEST_PATH: "./data/EUS/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/EUS/Prompts_Folder/"
+  SIZE: 224
+
+TRAIN:
+  NUM_EPOCHS: 10

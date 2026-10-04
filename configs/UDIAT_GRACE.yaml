@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "UDIAT"
+  TRAIN_PATH: "./data/UDIAT/Train_Folder/"
+  VAL_PATH: "./data/UDIAT/Val_Folder/"
+  TEST_PATH: "./data/UDIAT/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/UDIAT/Prompts_Folder/"
+  SIZE: 224

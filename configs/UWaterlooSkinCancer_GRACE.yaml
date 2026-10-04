@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: UWaterlooSkinCancer
+  TRAIN_PATH: ./data/UWaterlooSkinCancer/Train_Folder/
+  VAL_PATH: ./data/UWaterlooSkinCancer/Val_Folder/
+  TEST_PATH: ./data/UWaterlooSkinCancer/Test_Folder/
+  TEXT_PROMPT_PATH: ./data/UWaterlooSkinCancer/Prompts_Folder/
+  SIZE: 224

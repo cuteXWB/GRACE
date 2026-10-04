@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BKAI"
+  TRAIN_PATH: "./data/BKAI/Train_Folder/"
+  VAL_PATH: "./data/BKAI/Val_Folder/"
+  TEST_PATH: "./data/BKAI/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BKAI/Prompts_Folder/"
+  SIZE: 224

@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "Kvasir"
+  TRAIN_PATH: "./data/Kvasir/Train_Folder/"
+  VAL_PATH: "./data/Kvasir/Val_Folder/"
+  TEST_PATH: "./data/Kvasir/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/Kvasir/Prompts_Folder/"
+  SIZE: 224

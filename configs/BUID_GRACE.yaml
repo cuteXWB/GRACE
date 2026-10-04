@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BUID"
+  TRAIN_PATH: "./data/BUID/Train_Folder/"
+  VAL_PATH: "./data/BUID/Val_Folder/"
+  TEST_PATH: "./data/BUID/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BUID/Prompts_Folder/"
+  SIZE: 224

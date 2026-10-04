@@ -1,0 +1,9 @@
+_BASE_: "./_BASE_GRACE.yaml"
+
+DATASET:
+  NAME: "BRISC"
+  TRAIN_PATH: "./data/BRISC/Train_Folder/"
+  VAL_PATH: "./data/BRISC/Val_Folder/"
+  TEST_PATH: "./data/BRISC/Test_Folder/"
+  TEXT_PROMPT_PATH: "./data/BRISC/Prompts_Folder/"
+  SIZE: 224
